@@ -6,7 +6,7 @@ $(document).ready(function(){
 		}
 		else{
 			$('.navbar').removeClass("sticky");
-			}
+		}
 	});
 
 	$('.navbar .menu li a').click(function(){
@@ -19,11 +19,11 @@ $(document).ready(function(){
 
 	$('.navbar .menu').click(function(){
 		$('.navbar .menu').toggleClass("active");
-	})
+	});
 
 	$('.navbar .logo').click(function(){
 		$('.navbar .menu').removeClass("active");
-	})
+	});
 
 });
   
